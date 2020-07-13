@@ -15,6 +15,9 @@
 		3F9FBEFC24BA3560002D452A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FBEFA24BA3560002D452A /* LaunchScreen.storyboard */; };
 		3F9FBF0724BA3560002D452A /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FBF0624BA3560002D452A /* Tic_Tac_ToeTests.swift */; };
 		3F9FBF1224BA3560002D452A /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FBF1124BA3560002D452A /* Tic_Tac_ToeUITests.swift */; };
+		3F9FBF3A24BA8CED002D452A /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FBF3724BA8CED002D452A /* nought.png */; };
+		3F9FBF3B24BA8CED002D452A /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FBF3824BA8CED002D452A /* board.png */; };
+		3F9FBF3C24BA8CED002D452A /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FBF3924BA8CED002D452A /* cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3F9FBF0D24BA3560002D452A /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9FBF1124BA3560002D452A /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		3F9FBF1324BA3560002D452A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9FBF3724BA8CED002D452A /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nought.png; path = ../../../Downloads/tictactoeimages/nought.png; sourceTree = "<group>"; };
+		3F9FBF3824BA8CED002D452A /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = board.png; path = ../../../Downloads/tictactoeimages/board.png; sourceTree = "<group>"; };
+		3F9FBF3924BA8CED002D452A /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = ../../../Downloads/tictactoeimages/cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				3F9FBEF824BA3560002D452A /* Assets.xcassets */,
 				3F9FBEFA24BA3560002D452A /* LaunchScreen.storyboard */,
 				3F9FBEFD24BA3560002D452A /* Info.plist */,
+				3F9FBF3824BA8CED002D452A /* board.png */,
+				3F9FBF3924BA8CED002D452A /* cross.png */,
+				3F9FBF3724BA8CED002D452A /* nought.png */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -232,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9FBF3C24BA8CED002D452A /* cross.png in Resources */,
 				3F9FBEFC24BA3560002D452A /* LaunchScreen.storyboard in Resources */,
 				3F9FBEF924BA3560002D452A /* Assets.xcassets in Resources */,
+				3F9FBF3A24BA8CED002D452A /* nought.png in Resources */,
+				3F9FBF3B24BA8CED002D452A /* board.png in Resources */,
 				3F9FBEF724BA355E002D452A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
